@@ -1,13 +1,244 @@
-<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<HTML>
-   <HEAD>
-      <meta name="verify-admitad" content="c9e5d5466e" />
-      <TITLE>
-         A Small Hello 
-      </TITLE>
-   </HEAD>
-<BODY>
-   <H1>Hi</H1>
-   <P>This is very minimal "hello world" HTML document.</P> 
-</BODY>
-</HTML>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>AggCards</title>
+</head>
+
+<body>
+    <div class="container-fluid" style="padding-top: 20px; width: 95%">
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <center>
+                    <img class="logo-img" src="https://www.clouty.ru/client/assets/images/clouty-logo.svg" height="35px" alt="logo">
+                </center>
+            </div>
+            <div class="col-md-3">
+                <div class="search">
+                    <form action="#" method="post">
+                        <input class="search_input" type="text" name="search" placeholder="Поиск товара">
+                        <button class="search_button" type="submit">
+                            <img class="search_icon" src="search_icon.png" width="20px" height="20px" alt="">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid"style="width: 95%">
+        <h3>По запросу "Одежда" найдено:</h3>
+    </div>
+    <div class="container-fluid" style="width: 95%">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="catalog-navigator" style="margin-bottom: 15px;">
+                    <ul class="navigator-ul">
+                        <li class="navigator-li">
+                            <span class="navigator-name-category">
+                                <a href="#" class="link_category">Одежда</a>
+                                <span class="navigator-name-category-counter">2584</span>
+                                <div style="background: #999; height: 1px; margin: 7px 0"></div>
+                                <ul class="sub-category-navigator">
+                                    <li class="sub-category-name">
+                                        <span class="sub-category-span">
+                                            <a href="#" class="sub-category-url">Футболки</a>
+                                            <span class="sub-category-counter">349</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="sub-category-navigator">
+                                    <li class="sub-category-name">
+                                        <span class="sub-category-span">
+                                            <a href="#" class="sub-category-url">Кардиганы</a>
+                                            <span class="sub-category-counter">58</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="sub-category-navigator">
+                                    <li class="sub-category-name">
+                                        <span class="sub-category-span">
+                                            <a href="#" class="sub-category-url">Майки</a>
+                                            <span class="sub-category-counter">157</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-6 col-sm-4 col-md-3" style="padding: 0 10px">
+                        <div class="product-grid">
+                            <a href="https://google.com">
+                                <div class="product-image">
+                                    <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-2.jpg">
+                                    <span class="product-new-label">Sale</span>
+                                    <span class="product-discount-label">20%</span>
+                                </div>
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star disable"></li>
+                                </ul>
+                                <div class="product-content">
+                                    <h3 class="title">Женская блузка</h3>
+                                    <div class="price">800₽
+                                        <span>1000₽</span>
+                                    </div>
+                                    <div class="product-sizes">XS S M L</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-3" style="padding: 0 10px">
+                        <div class="product-grid">
+                            <a href="https://google.com">
+                                <div class="product-image">
+                                    <img class="pic-1" src="https://tvoe.ru/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/0/2000002629368_1.jpg">
+                                    <span class="product-new-label">Sale</span>
+                                    <span class="product-discount-label">20%</span>
+                                </div>
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star disable"></li>
+                                </ul>
+                                <div class="product-content">
+                                    <h3 class="title">Женская блузка</h3>
+                                    <div class="price">800₽
+                                        <span>1000₽</span>
+                                    </div>
+                                    <div class="product-sizes">XS S M L</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-3" style="padding: 0 10px">
+                        <div class="product-grid">
+                            <a href="https://google.com">
+                                <div class="product-image">
+                                    <img class="pic-1" src="https://tvoe.ru/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/0/2000002069263_1.jpg">
+                                    <span class="product-new-label">Sale</span>
+                                    <span class="product-discount-label">20%</span>
+                                </div>
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star disable"></li>
+                                </ul>
+                                <div class="product-content">
+                                    <h3 class="title">Женская блузка</h3>
+                                    <div class="price">800₽
+                                        <span>1000₽</span>
+                                    </div>
+                                    <div class="product-sizes">XS S M L</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-3" style="padding: 0 10px">
+                        <div class="product-grid">
+                            <a href="https://google.com">
+                                <div class="product-image">
+                                    <img class="pic-1" src="https://tvoe.ru/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/0/2000001908075_1.jpg">
+                                    <span class="product-new-label">Sale</span>
+                                    <span class="product-discount-label">20%</span>
+                                </div>
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star disable"></li>
+                                </ul>
+                                <div class="product-content">
+                                    <h3 class="title">Женская блузка</h3>
+                                    <div class="price">800₽
+                                        <span>1000₽</span>
+                                    </div>
+                                    <div class="product-sizes">XS S M L</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 col-sm-4 col-md-3" style="padding: 0 10px">
+                        <div class="product-grid">
+                            <a href="https://google.com">
+                                <div class="product-image">
+                                    <img class="pic-1" src="https://tvoe.ru/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/0/2000001852873_1.jpg">
+                                    <span class="product-new-label">Sale</span>
+                                    <span class="product-discount-label">20%</span>
+                                </div>
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star disable"></li>
+                                </ul>
+                                <div class="product-content">
+                                    <h3 class="title">Женская блузка</h3>
+                                    <div class="price">800₽
+                                        <span>1000₽</span>
+                                    </div>
+                                    <div class="product-sizes">XS S M L</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-3" style="padding: 0 10px">
+                        <div class="product-grid">
+                            <a href="https://google.com">
+                                <div class="product-image">
+                                    <img class="pic-1" src="https://tvoe.ru/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/0/2000001801673_1.jpg">
+                                    <span class="product-new-label">Sale</span>
+                                    <span class="product-discount-label">20%</span>
+                                </div>
+                                <ul class="rating">
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star"></li>
+                                    <li class="fa fa-star disable"></li>
+                                </ul>
+                                <div class="product-content">
+                                    <h3 class="title">Женская блузка</h3>
+                                    <div class="price">800₽
+                                        <span>1000₽</span>
+                                    </div>
+                                    <div class="product-sizes">XS S M L</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
