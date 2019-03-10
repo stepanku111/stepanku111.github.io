@@ -331,6 +331,30 @@ ul li span {
     display: none;
 }
 
+.page-link{
+    color: #222;
+    transition:all 0.2s ease;
+}
+
+.page-link:hover{
+    color: #222;
+    background: #fff;
+}
+
+
+.page-link.page-link{
+    border: 1px solid rgba(0, 0, 0, .1)
+}
+
+.active.active .page-link {
+     background-color: #ef5777;
+     border-color: #ef5777;
+ }
+
+.active.active .page-link:hover {
+    transform:none;
+}
+
 @media (min-width: 992px) {
     .header {
         display: block;
@@ -380,7 +404,6 @@ ul li span {
 
     .footer-grid-li:hover {
         color: #999;
-        -ms-transform: scale(1.1);
         transform: scale(1.1);
     }
 
@@ -388,5 +411,8 @@ ul li span {
         color: #999;
     }
 
+    .page-link:hover{
+        transform: scale(1.1);
+    }
 
 }
