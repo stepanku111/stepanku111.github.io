@@ -60,7 +60,9 @@ button:focus,
 
 @media (max-width: 576px) {
     .mobile {
-        display: flex !important;
-        margin-top: 50px;
+        display: block !important;
+    }
+    .desktop{
+        display: none !important;
     }
 }
