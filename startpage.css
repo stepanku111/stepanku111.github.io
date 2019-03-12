@@ -11,11 +11,6 @@
     100% {background-position: 0% 50%;}
 }
 
-.category-card{
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
 input{
     box-shadow: none !important;
 }
@@ -65,4 +60,16 @@ button:focus,
     .desktop{
         display: none !important;
     }
+}
+
+
+.category-wrapper{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.category-card{
+    border: 1px solid #999;
+    height: 300px;
 }
