@@ -15,6 +15,18 @@ input{
     box-shadow: none !important;
 }
 
+html {
+    overflow: hidden;
+}
+body {
+    height:auto;
+    overflow: hidden;
+}
+.scrollable {
+    position:inherit;
+}
+
+
 a.active.focus,
 a.active:focus,
 a.focus,
