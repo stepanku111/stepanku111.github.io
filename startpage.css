@@ -15,15 +15,6 @@ input{
     box-shadow: none !important;
 }
 
-.input-group{
-    transition:all 0.3s ease;
-}
-
-.input-group:hover{
-    transform: scale(1.05);
-}
-
-
 a.active.focus,
 a.active:focus,
 a.focus,
@@ -57,17 +48,26 @@ button:focus,
     .mobile {
         display: block !important;
     }
+
     .desktop{
         display: none !important;
     }
 }
 
+@media (min-width: 576px) {
+    .input-group{
+        transition:all 0.3s ease;
+    }
+
+    .input-group:hover{
+        transform: scale(1.05);
+    }
+}
 
 .category-wrapper{
     padding-left: 5px;
     padding-right: 5px;
 }
-
 
 .category-card{
     border: 1px solid #999;
